@@ -7,7 +7,7 @@ File new_folder = new File(Environment.getExternalStorageDirectory().getAbsolute
 
 In particular this code works with JellyBean Android API 18. It will not work with Marshmallow and later because of the new runtime permissions. I will post a version that does do this shortly. 
 
-The emulator for Jellybean Android v18 did NOT work with this code when run from Android Studio. The emulator did not work with the internet. I was not able to using the browser on the phone to surf the internet and so the AVD would timeout when trying to download the image. I had to start the emulator from the command line using my particular dns server as follows...
+The emulator for Jellybean Android v18 did NOT work with this code when run from Android Studio. The emulator did not work with the internet. I was not able to using the browser on the phone to surf the internet and so the AVD would timeout when trying to download the images. I had to start the emulator from the command line using my particular dns server as follows...
 
 wherever-your-android-sdk-is-located/tools/emulator.exe -avd Nexus_5_API_18 -dns-server xxx.xxx.xxx.xxx
 
